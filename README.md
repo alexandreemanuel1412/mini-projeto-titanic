@@ -24,3 +24,29 @@ Ele foi criado para **praticar conceitos de classificação supervisionada** e c
    ```bash
    git clone https://github.com/alexandreemanuel1412/mini-projeto-titanic.git
 
+---
+
+## ✅ Resultados
+
+Os resultados podem variar, mas Random Forest costuma ter a maior acurácia.
+
+---
+
+## 🚀 Próximos Passos
+
+- Testar mais modelos (SVM, XGBoost)
+- Fazer ajuste de hiperparâmetros (GridSearchCV)
+- Implementar validação cruzada (Cross-Validation)
+
+---
+
+## 👨‍💻 Autor
+
+Feito por [Alexandre Emanuel](https://github.com/alexandreemanuel1412)
+
+---
+
+## 📜 Licença
+
+Projeto de uso educacional — MIT License.
+

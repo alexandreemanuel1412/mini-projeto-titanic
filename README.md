@@ -1,61 +1,26 @@
-Mini-Projeto Titanic: Classificação de Sobreviventes
+# 🛳️ Projeto Titanic — Classificação de Sobrevivência
 
-Este projeto é um exercício prático de **machine learning** para prever a sobrevivência dos passageiros do Titanic com base em informações pessoais e da viagem.
-
----
-
-## Objetivo
-
-Construir um modelo de **classificação binária** que determine se um passageiro sobreviveu ou não ao desastre, utilizando algoritmos básicos de aprendizado supervisionado.
+Este projeto é um **mini-projeto de Machine Learning** usando o famoso dataset do Titanic para **prever a sobrevivência de passageiros**.  
+Ele foi criado para **praticar conceitos de classificação supervisionada** e comparar **diferentes modelos de ML** de forma simples.
 
 ---
 
-## Dataset
+## 📂 **Sobre o Projeto**
 
-Os dados utilizados são públicos e disponíveis no repositório do Kaggle e outras fontes abertas. O dataset contém informações como idade, sexo, classe da cabine, tarifa paga, entre outras.
-
----
-
-## Tecnologias e Bibliotecas
-
-- Python 3.x  
-- pandas  
-- numpy  
-- seaborn  
-- matplotlib  
-- scikit-learn  
+- **Dataset:** [Titanic Dataset - Kaggle](https://www.kaggle.com/c/titanic) (neste projeto usamos a versão hospedada no GitHub).
+- **Problema:** Classificação binária (`Survived` = 0 ou 1).
+- **Objetivo:** Comparar a performance de 4 modelos de ML:
+  - Regressão Logística
+  - Árvore de Decisão
+  - Random Forest
+  - K-Nearest Neighbors (KNN)
+- **Ferramentas:** Python, pandas, scikit-learn, seaborn, matplotlib.
 
 ---
 
-## Metodologia
+## ⚙️ **Como Executar**
 
-1. Importação e limpeza dos dados (tratamento de valores ausentes e transformação de variáveis categóricas).  
-2. Análise exploratória básica dos dados.  
-3. Preparação das variáveis para o modelo.  
-4. Divisão dos dados em conjuntos de treino e teste.  
-5. Treinamento de modelo de Regressão Logística.  
-6. Avaliação do modelo com métricas de acurácia, matriz de confusão e relatório de classificação.
+1. **Clone ou faça download** deste repositório:
+   ```bash
+   git clone https://github.com/alexandreemanuel1412/mini-projeto-titanic.git
 
----
-
-## Resultados
-
-O modelo obteve uma acurácia satisfatória para um modelo básico, demonstrando a viabilidade de predição da sobrevivência com as variáveis escolhidas.
-
----
-
-## Como rodar
-
-Para executar o projeto, basta abrir o notebook `Classificacao_Sobrevivencia_Titanic.ipynb` no Google Colab ou Jupyter Notebook e executar as células em sequência.
-
----
-
-## Autor
-
-Alexandre Emanuel — alexandreemanuel@tutamail.com
-
----
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT — veja o arquivo LICENSE para detalhes.
